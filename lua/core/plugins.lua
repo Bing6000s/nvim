@@ -12,7 +12,8 @@ vim.cmd [[
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   Plug 'junegunn/fzf.vim'
   Plug 'bing6000s/asyncomplete.vim'
-
+  Plug 'MeanDeringProgrammer/render-markdown.nvim'
+  Plug 'nvim-lua/plenary.nvim'
   call plug#end()
 ]]
 
